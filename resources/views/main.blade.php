@@ -31,7 +31,6 @@
             </div>
         </div>
     </nav>
-
     <div class="container">
         @yield('container')
     </div>
