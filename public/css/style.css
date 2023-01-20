@@ -3,6 +3,7 @@ html, body {
 }
 
 .container {
+    text-align: center;
     max-width: 600px;
     height: 500px;
     margin: auto;
@@ -19,9 +20,8 @@ html, body {
 
 .button .btn-about-me {
     background-color: blue;
-    border: 4px solid blue;
     color: white;
-    padding: 6px 10px;
+    padding: 10px 14px;
     border-radius: 16px;
 }
 

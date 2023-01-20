@@ -19,7 +19,8 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('home', [
-        "tittle" => "Halaman Home",
+        "title" => "Halaman Home",
+        "foto" => "img/me.png",
         "name" => "Rachel Setyawan",
         "job" => "Frontend Developer",
         "description" => "I Want to be a Fullstack Developer"
@@ -28,18 +29,18 @@ Route::get('/', function () {
 
 Route::get('/about', function () {
     return view('about', [
-        "tittle" => "Halaman About",
+        "title" => "Halaman About",
         "name" => "Rachel Setyawan",
-        "ttl" => "Jakarta, 07 Agustus 2006",
-        "no_wa" => "081282478344",
+        "ttl" => "Jakarta, 07 Agustus",
+        "no_wa" => "012345678910",
         "hobi" => "Coding, Game",
-        "jargon" => "Got Carry",
-        "foto" => "images/me.png"
+        "jargon" => "Random",
+        "foto" => "img/me.png"
     ]);
 });
 
 Route::get('/contact', function () {
     return view('contact', [
-        "tittle" => "Halaman Contact"
+        "title" => "Halaman Contact"
     ]);
 });

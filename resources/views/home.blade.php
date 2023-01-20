@@ -9,7 +9,9 @@
 </head>
 <body>
     <div class="container">
-        <div class="image"></div>
+        <div class="image">
+            <img src="{{ $foto }}" alt="images me" width="240px">
+        </div>
         <h2><?= $name; ?></h2>
         <p><?= $job; ?></p>
         <p class="deskripsi">
