@@ -6,7 +6,7 @@
         <td>{{ $name }}</td>
     </tr>
     <tr>
-        <td>Tempat tgl lahir</td>
+        <td>Tempat tanggal lahir</td>
         <td>{{ $ttl }}</td>
     </tr>
     <tr>
